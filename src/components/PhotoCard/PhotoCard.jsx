@@ -9,13 +9,13 @@ const PhotoCard = ({photo}) => {
     console.log(photo);
     return (
         <Card className='rounded-xl border'>
-            <div className='relative w-full aspect-square'>
+            <div className='relative w-full aspect-square '>
             <Image 
             src={photo.imageUrl} 
             alt={photo.title} 
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className='object-cover rounded-xl'
+            className='object-cover rounded-xl '
             
             >
             
