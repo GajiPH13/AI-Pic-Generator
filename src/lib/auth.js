@@ -53,6 +53,7 @@ export const auth = betterAuth({
     enabled: true,
   },
 
+  
   socialProviders: {
     google: {
       prompt: "select_account",
