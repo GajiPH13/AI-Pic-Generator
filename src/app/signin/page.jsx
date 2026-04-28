@@ -29,14 +29,12 @@ export default function SignInPage() {
    
   };
 
-//   const onGoogleSignIn = async () => {
-//      await authClient.signIn.social({
-//       provider: "google",
-//     });
-    // console.log(data);
-    // console.log(error);
-   
-//   };
+  const onGoogleSignIn = async () => {
+     await authClient.signIn.social({
+      provider: "google",
+    });
+    
+   };
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
@@ -98,7 +96,7 @@ export default function SignInPage() {
         </div>
       </Form>
       <p className="text-center text-3xl">or</p>
-      <Button onClick={()=> authClient.signIn.social({provider: "google"})} variant="outline" className={"w-full"}><GrGoogle/>Sign in with Google</Button>
+      <Button onClick={onGoogleSignIn} variant="outline" className={"w-full"}><GrGoogle/>Sign in with Google</Button>
     </Card>
   );
 }
