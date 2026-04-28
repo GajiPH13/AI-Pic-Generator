@@ -7,7 +7,7 @@ import Link from "next/link";
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
-  console.log(userData);
+  // console.log(userData);
   return (
     <div className="border-b px-2">
       <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">

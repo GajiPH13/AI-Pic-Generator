@@ -11,7 +11,7 @@ export function UpdateUserForm() {
         e.preventDefault();
         const name = e.target.name.value;
         const image = e.target.image.value;
-        console.log({name, image});
+        // console.log({name, image});
         // const { data, error } =  updateUser({name, image});
         await authClient.updateUser({name, image});
     }

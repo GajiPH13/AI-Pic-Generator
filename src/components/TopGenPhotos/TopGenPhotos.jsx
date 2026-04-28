@@ -5,9 +5,9 @@ import PhotoCard from '../PhotoCard/PhotoCard';
 const TopGenPhotos = async () => {
     const res = await fetch('https://ai-pic-generator-livid.vercel.app/data.json');
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
     const topPhotos = data.slice(0, 8);
-    console.log(topPhotos);
+    // console.log(topPhotos);
     return (
         <div>
             <h1 className='mt-5'>Top Generated Photos</h1>
