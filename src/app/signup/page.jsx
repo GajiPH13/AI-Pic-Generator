@@ -11,8 +11,12 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { useRouter } from "next/navigation";
+
+
 
 export default function SignUpPage() {
+    const router = useRouter();
   const onSubmit = async (e) => {
     e.preventDefault();
     const name = e.target.name.value;
@@ -25,10 +29,15 @@ export default function SignUpPage() {
     email: email,
     password: password,
     image: image,
-    callbackURL: "/",
+   
 });
-    console.log(data);
-    console.log(error);
+    // console.log(data);
+    // console.log(error);
+
+    if (!error) {
+      router.push("/");
+      alert("Sign up successful!");
+    }
   };
 
 

@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { GrGoogle } from "react-icons/gr";
 
 export default function SignInPage() {
   const onSubmit = async (e) => {
@@ -23,8 +24,18 @@ export default function SignInPage() {
       password: password,
       callbackURL: "/",
     });
-    console.log(data);
-    console.log(error);
+    // console.log(data);
+    // console.log(error);
+   
+  };
+
+  const onGoogleSignIn = async () => {
+     await authClient.signIn.social({
+      provider: "google",
+    });
+    // console.log(data);
+    // console.log(error);
+   
   };
 
   return (
@@ -86,6 +97,8 @@ export default function SignInPage() {
           </Button>
         </div>
       </Form>
+      <p className="text-center text-3xl">or</p>
+      <Button onClick={onGoogleSignIn} variant="outline" className={"w-full"}><GrGoogle/>Sign in with Google</Button>
     </Card>
   );
 }
