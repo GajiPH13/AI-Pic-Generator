@@ -11,8 +11,8 @@ const PhotoCard = ({photo}) => {
         <Card className='rounded-xl border'>
             <div className='relative w-full aspect-square '>
             <Image 
-            src={photo.imageUrl} 
-            alt={photo.title} 
+            src={photo?.imageUrl} 
+            alt={photo?.title} 
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className='object-cover rounded-xl '
@@ -20,24 +20,24 @@ const PhotoCard = ({photo}) => {
             >
             
             </Image>
-            <Chip className='absolute top-2 right-2'>{photo.category}</Chip>  
+            <Chip className='absolute top-2 right-2'>{photo?.category}</Chip>  
         </div>
         <div>
-            <h2>{photo.title}</h2>
+            <h2>{photo?.title}</h2>
         </div>
         <div className='flex justify-between items-center'>
             <div className='flex gap-2 items-center'>
             <p><FaHeart /></p>
-            <p>{photo.likes}</p>
+            <p>{photo?.likes}</p>
 
         </div>
         <Separator  orientation='vertical'/>
         <div className='flex gap-2 items-center'>
             <p><BiDownload /></p>
-            <p>{photo.downloads}</p>
+            <p>{photo?.downloads}</p>
         </div>
         </div>
-        <Link href={`/all-photos/${photo.id}`}><Button  variant="outline" className={'w-full'}>View</Button></Link>
+        <Link href={`/all-photos/${photo?.id}`}><Button  variant="outline" className={'w-full'}>View</Button></Link>
         </Card>
     );
 };
