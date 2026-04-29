@@ -65,6 +65,6 @@ export const auth = betterAuth({
 
   trustedOrigins: [
     "http://localhost:3000",
-    "https://yourdomain.com",
+    "https://ai-pic-generator-livid.vercel.app",
   ],
 });
