@@ -30,7 +30,7 @@ export default function SignInPage() {
   };
 
   const onGoogleSignIn = async () => {
-     await authClient.signIn.social({
+    const data = await authClient.signIn.social({
       provider: "google",
     });
     
