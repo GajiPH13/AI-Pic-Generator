@@ -1,4 +1,5 @@
 import Category from "@/components/Category/Category";
+import CategorySearch from "@/components/CategorySearch/CategorySearch";
 import PhotoCard from "@/components/PhotoCard/PhotoCard";
 import Link from "next/link";
 import React from "react";
@@ -35,12 +36,13 @@ const AllPhotoPage = async ({ searchParams }) => {
                 transform: "translateY(-50%)",
               }}
             />
-            <input
+            {/* <input
               type="text"
               placeholder="Search for Available Photos"
               style={{ paddingLeft: "30px" }}
               className="w-full py-4 rounded-lg border border-zinc-200"
-            />
+            /> */}
+            <CategorySearch></CategorySearch>
           </div>
         </div>
       </div>
