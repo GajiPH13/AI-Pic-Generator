@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A story of wealth, love, and the American Dream set in the Roaring Twenties.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A powerful tale of racial injustice and moral growth in the American South.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel about surveillance, control, and totalitarianism.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/7222241-L.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship and writing clean, maintainable code.",
+    "category": "Tech",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/id/9611996-L.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "description": "A guide to becoming a better and more effective software developer.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/id/8099256-L.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "description": "A comprehensive textbook covering a wide range of algorithms in depth.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/135182-L.jpg"
+  },
+  {
+    "id": 7,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "An overview of cosmology, black holes, and the nature of the universe.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/id/240726-L.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "An exploration of evolution from the gene-centered view.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Elegant Universe",
+    "author": "Brian Greene",
+    "description": "A deep dive into string theory and the fabric of the cosmos.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/240727-L.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A philosophical story about following your dreams and destiny.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://covers.openlibrary.org/b/id/8108691-L.jpg"
+  },
+  {
+    "id": 11,
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "description": "A deep dive into the core mechanisms of JavaScript.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "https://covers.openlibrary.org/b/id/9871991-L.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "description": "A journey through space, time, and the wonders of the universe.",
+    "category": "Science",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/id/240728-L.jpg"
+  }
+]
