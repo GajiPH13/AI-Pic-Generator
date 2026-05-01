@@ -5,7 +5,7 @@ import React from "react";
 const PhotoDetailsPage = async ({ params }) => {
   const { id } = await params;
   const res = await fetch(
-    `https://ai-pic-generator-livid.vercel.app/data.json`,
+    `https://ai-pic-generator-livid.vercel.app/books.json`,
   );
   const photos = await res.json();
   // console.log(photos);
