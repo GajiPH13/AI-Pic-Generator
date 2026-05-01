@@ -2,7 +2,7 @@ import PhotoCard from "../PhotoCard/PhotoCard";
 
 const TopGenPhotos = async () => {
   const res = await fetch(
-    "https://ai-pic-generator-livid.vercel.app/data.json",
+    "https://ai-pic-generator-livid.vercel.app/books.json",
   );
   const data = await res.json();
   // console.log(data);

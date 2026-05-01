@@ -9,7 +9,7 @@ const AllPhotoPage = async ({ searchParams }) => {
   const { category } = await searchParams;
   console.log(category);
   const res = await fetch(
-    "https://ai-pic-generator-livid.vercel.app/data.json",
+    "https://ai-pic-generator-livid.vercel.app/books.json",
   );
   const photos = await res.json();
   // console.log(photos);

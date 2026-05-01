@@ -11,7 +11,7 @@ const PhotoCard = ({photo}) => {
         <Card className='rounded-xl border'>
             <div className='relative w-full aspect-square '>
             <Image 
-            src={photo?.imageUrl} 
+            src={photo?.image_url} 
             alt={photo?.title} 
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

@@ -44,5 +44,20 @@
     "id": 9,
     "name": "Steampunk",
     "slug": "steampunk"
+  },
+  {
+    "id": 10,
+    "name": "Science",
+    "slug": "Science"
+  },
+  {
+    "id": 11,
+    "name": "Tech",
+    "slug": "Tech"
+  },
+  {
+    "id": 12,
+    "name": "Story",
+    "slug": "Story"
   }
 ]
